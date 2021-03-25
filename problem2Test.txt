@@ -1,0 +1,234 @@
+We tested the validity of our program by making 4 workers (IDs: 0, 1, 2, and 3) per each of the 4 teams, and 50 packages total.
+The workers cycled through their respective team's queue's as predicted and delivered all packages.
+This demonstrates that the program works and no packages or workers are ever out of order.
+
+
+Package created with package ID 0 with instructions 2, 4, 1, 3
+Package created with package ID 1 with instructions 1, 0, 0, 0
+Package created with package ID 2 with instructions 2, 3, 1, 4
+Package created with package ID 3 with instructions 3, 0, 0, 0
+Package created with package ID 4 with instructions 4, 3, 2, 1
+Package created with package ID 5 with instructions 4, 3, 0, 0
+Package created with package ID 6 with instructions 1, 2, 4, 3
+Package created with package ID 7 with instructions 4, 3, 2, 0
+Package created with package ID 8 with instructions 4, 1, 0, 0
+Package created with package ID 9 with instructions 1, 2, 4, 3
+Package created with package ID 10 with instructions 1, 3, 2, 4
+Package created with package ID 11 with instructions 2, 3, 1, 4
+Package created with package ID 12 with instructions 2, 4, 1, 3
+Package created with package ID 13 with instructions 2, 1, 3, 0
+Package created with package ID 14 with instructions 1, 4, 2, 0
+Package created with package ID 15 with instructions 2, 0, 0, 0
+Package created with package ID 16 with instructions 4, 1, 2, 0
+Package created with package ID 17 with instructions 4, 1, 3, 2
+Package created with package ID 18 with instructions 4, 3, 2, 1
+Package created with package ID 19 with instructions 2, 3, 1, 0
+Package created with package ID 20 with instructions 3, 0, 0, 0
+Package created with package ID 21 with instructions 3, 1, 4, 2
+Package created with package ID 22 with instructions 2, 1, 0, 0
+Package created with package ID 23 with instructions 3, 1, 4, 2
+Package created with package ID 24 with instructions 1, 0, 0, 0
+Package created with package ID 25 with instructions 3, 1, 0, 0
+Package created with package ID 26 with instructions 2, 1, 4, 3
+Package created with package ID 27 with instructions 4, 2, 0, 0
+Package created with package ID 28 with instructions 3, 0, 0, 0
+Package created with package ID 29 with instructions 2, 4, 1, 3
+Package created with package ID 30 with instructions 4, 3, 1, 0
+Package created with package ID 31 with instructions 4, 1, 3, 0
+Package created with package ID 32 with instructions 1, 0, 0, 0
+Package created with package ID 33 with instructions 2, 0, 0, 0
+Package created with package ID 34 with instructions 2, 1, 3, 4
+Package created with package ID 35 with instructions 3, 2, 0, 0
+Package created with package ID 36 with instructions 1, 4, 0, 0
+Package created with package ID 37 with instructions 3, 2, 0, 0
+Package created with package ID 38 with instructions 3, 2, 0, 0
+Package created with package ID 39 with instructions 3, 2, 4, 1
+Package created with package ID 40 with instructions 1, 0, 0, 0
+Package created with package ID 41 with instructions 2, 1, 0, 0
+Package created with package ID 42 with instructions 3, 0, 0, 0
+Package created with package ID 43 with instructions 1, 3, 0, 0
+Package created with package ID 44 with instructions 2, 0, 0, 0
+Package created with package ID 45 with instructions 3, 0, 0, 0
+Package created with package ID 46 with instructions 2, 3, 4, 0
+Package created with package ID 47 with instructions 4, 0, 0, 0
+Package created with package ID 48 with instructions 4, 1, 0, 0
+Package created with package ID 49 with instructions 2, 3, 4, 1
+red 0 is now using the xray station on package 0
+yellow 0 is now using the barcode station on package 1
+green 0 is now using the xray station on package 2
+blue 0 is now using the shaker station on package 3
+red 0 is now using the weigh station on package 0
+yellow (ID: 0) has finished with package 1, it has now been shipped!
+green 0 is now using the shaker station on package 2
+yellow 1 is now using the weigh station on package 4
+blue (ID: 0) has finished with package 3, it has now been shipped!
+blue 1 is now using the weigh station on package 5
+red 0 is now using the barcode station on package 0
+green 0 is now using the barcode station on package 2
+yellow 1 is now using the shaker station on package 4
+blue 1 is now using the shaker station on package 5
+red 0 is now using the shaker station on package 0
+green 0 is now using the weigh station on package 2
+yellow 1 is now using the xray station on package 4
+blue (ID: 1) has finished with package 5, it has now been shipped!
+blue 2 is now using the barcode station on package 6
+red (ID: 0) has finished with package 0, it has now been shipped!
+red 1 is now using the weigh station on package 7
+green (ID: 0) has finished with package 2, it has now been shipped!
+yellow 1 is now using the barcode station on package 4
+green 1 is now using the weigh station on package 8
+blue 2 is now using the xray station on package 6
+red 1 is now using the shaker station on package 7
+yellow (ID: 1) has finished with package 4, it has now been shipped!
+green 1 is now using the barcode station on package 8
+yellow 2 is now using the barcode station on package 9
+blue 2 is now using the weigh station on package 6
+red 1 is now using the xray station on package 7
+yellow 2 is now using the xray station on package 9
+green (ID: 1) has finished with package 8, it has now been shipped!
+green 2 is now using the barcode station on package 10
+blue 2 is now using the shaker station on package 6
+red (ID: 1) has finished with package 7, it has now been shipped!
+red 2 is now using the xray station on package 11
+green 2 is now using the shaker station on package 10
+yellow 2 is now using the weigh station on package 9
+blue (ID: 2) has finished with package 6, it has now been shipped!
+blue 3 is now using the xray station on package 12
+red 2 is now using the shaker station on package 11
+green 2 is now using the xray station on package 10
+yellow 2 is now using the shaker station on package 9
+blue 3 is now using the weigh station on package 12
+red 2 is now using the barcode station on package 11
+green 2 is now using the weigh station on package 10
+yellow (ID: 2) has finished with package 9, it has now been shipped!
+yellow 3 is now using the xray station on package 13
+blue 3 is now using the barcode station on package 12
+red 2 is now using the weigh station on package 11
+green (ID: 2) has finished with package 10, it has now been shipped!
+green 3 is now using the barcode station on package 14
+yellow 3 is now using the barcode station on package 13
+blue 3 is now using the shaker station on package 12
+red (ID: 2) has finished with package 11, it has now been shipped!
+red 3 is now using the xray station on package 15
+yellow 3 is now using the shaker station on package 13
+green 3 is now using the weigh station on package 14
+blue (ID: 3) has finished with package 12, it has now been shipped!
+blue 0 is now using the weigh station on package 16
+red (ID: 3) has finished with package 15, it has now been shipped!
+red 0 is now using the weigh station on package 17
+green 3 is now using the xray station on package 14
+yellow (ID: 3) has finished with package 13, it has now been shipped!
+yellow 0 is now using the weigh station on package 18
+blue 0 is now using the barcode station on package 16
+red 0 is now using the barcode station on package 17
+green (ID: 3) has finished with package 14, it has now been shipped!
+green 0 is now using the xray station on package 19
+yellow 0 is now using the shaker station on package 18
+blue 0 is now using the xray station on package 16
+red 0 is now using the shaker station on package 17
+green 0 is now using the shaker station on package 19
+yellow 0 is now using the xray station on package 18
+blue (ID: 0) has finished with package 16, it has now been shipped!
+blue 1 is now using the shaker station on package 20
+red 0 is now using the xray station on package 17
+green 0 is now using the barcode station on package 19
+yellow 0 is now using the barcode station on package 18
+blue (ID: 1) has finished with package 20, it has now been shipped!
+blue 2 is now using the shaker station on package 21
+red (ID: 0) has finished with package 17, it has now been shipped!
+red 1 is now using the xray station on package 22
+green (ID: 0) has finished with package 19, it has now been shipped!
+green 1 is now using the shaker station on package 23
+yellow (ID: 0) has finished with package 18, it has now been shipped!
+yellow 1 is now using the barcode station on package 24
+blue 2 is now using the barcode station on package 21
+red 1 is now using the barcode station on package 22
+green 1 is now using the barcode station on package 23
+yellow (ID: 1) has finished with package 24, it has now been shipped!
+yellow 2 is now using the shaker station on package 25
+blue 2 is now using the weigh station on package 21
+red (ID: 1) has finished with package 22, it has now been shipped!
+red 2 is now using the xray station on package 26
+green 1 is now using the weigh station on package 23
+yellow 2 is now using the barcode station on package 25
+blue 2 is now using the xray station on package 21
+red 2 is now using the barcode station on package 26
+green 1 is now using the xray station on package 23
+yellow (ID: 2) has finished with package 25, it has now been shipped!
+yellow 3 is now using the weigh station on package 27
+blue (ID: 2) has finished with package 21, it has now been shipped!
+blue 3 is now using the shaker station on package 28
+red 2 is now using the weigh station on package 26
+green (ID: 1) has finished with package 23, it has now been shipped!
+green 2 is now using the xray station on package 29
+yellow 3 is now using the xray station on package 27
+blue (ID: 3) has finished with package 28, it has now been shipped!
+blue 0 is now using the weigh station on package 30
+red 2 is now using the shaker station on package 26
+green 2 is now using the weigh station on package 29
+yellow (ID: 3) has finished with package 27, it has now been shipped!
+yellow 0 is now using the weigh station on package 31
+blue 0 is now using the shaker station on package 30
+red (ID: 2) has finished with package 26, it has now been shipped!
+red 3 is now using the barcode station on package 32
+green 2 is now using the barcode station on package 29
+yellow 0 is now using the barcode station on package 31
+blue 0 is now using the barcode station on package 30
+red (ID: 3) has finished with package 32, it has now been shipped!
+red 0 is now using the xray station on package 33
+green 2 is now using the shaker station on package 29
+yellow 0 is now using the shaker station on package 31
+blue (ID: 0) has finished with package 30, it has now been shipped!
+blue 1 is now using the xray station on package 34
+red (ID: 0) has finished with package 33, it has now been shipped!
+red 1 is now using the shaker station on package 35
+green (ID: 2) has finished with package 29, it has now been shipped!
+green 3 is now using the barcode station on package 36
+yellow (ID: 0) has finished with package 31, it has now been shipped!
+yellow 1 is now using the shaker station on package 37
+blue 1 is now using the barcode station on package 34
+red 1 is now using the xray station on package 35
+green 3 is now using the weigh station on package 36
+yellow 1 is now using the xray station on package 37
+blue 1 is now using the shaker station on package 34
+red (ID: 1) has finished with package 35, it has now been shipped!
+red 2 is now using the shaker station on package 38
+green (ID: 3) has finished with package 36, it has now been shipped!
+green 0 is now using the shaker station on package 39
+yellow (ID: 1) has finished with package 37, it has now been shipped!
+yellow 2 is now using the barcode station on package 40
+blue 1 is now using the weigh station on package 34
+red 2 is now using the xray station on package 38
+green 0 is now using the xray station on package 39
+yellow (ID: 2) has finished with package 40, it has now been shipped!
+yellow 3 is now using the xray station on package 41
+blue (ID: 1) has finished with package 34, it has now been shipped!
+blue 2 is now using the shaker station on package 42
+red (ID: 2) has finished with package 38, it has now been shipped!
+red 3 is now using the barcode station on package 43
+green 0 is now using the weigh station on package 39
+yellow 3 is now using the barcode station on package 41
+blue (ID: 2) has finished with package 42, it has now been shipped!
+blue 3 is now using the xray station on package 44
+red 3 is now using the shaker station on package 43
+green 0 is now using the barcode station on package 39
+yellow (ID: 3) has finished with package 41, it has now been shipped!
+yellow 0 is now using the shaker station on package 45
+blue (ID: 3) has finished with package 44, it has now been shipped!
+blue 0 is now using the xray station on package 46
+red (ID: 3) has finished with package 43, it has now been shipped!
+red 0 is now using the weigh station on package 47
+green (ID: 0) has finished with package 39, it has now been shipped!
+green 1 is now using the weigh station on package 48
+yellow (ID: 0) has finished with package 45, it has now been shipped!
+yellow 1 is now using the xray station on package 49
+blue 0 is now using the shaker station on package 46
+red (ID: 0) has finished with package 47, it has now been shipped!
+green 1 is now using the barcode station on package 48
+yellow 1 is now using the shaker station on package 49
+blue 0 is now using the weigh station on package 46
+green (ID: 1) has finished with package 48, it has now been shipped!
+yellow 1 is now using the weigh station on package 49
+blue (ID: 0) has finished with package 46, it has now been shipped!
+yellow 1 is now using the barcode station on package 49
+yellow (ID: 1) has finished with package 49, it has now been shipped!

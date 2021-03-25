@@ -1,0 +1,8 @@
+CS 3013 Project 2 Problem 1
+Colby Frechette + Jason Dykstra
+
+Summer Spectacular Problem
+
+In problem 1, We avoid depriving the different performer types of the stage by creating a variable to keep track of how many times a certain performer has been on stage in a row. If a certain performer, say a flamenco dancer, is on stage for more than a certain number of times (in our case, 8) then they will not be able to grab the mutex to get on stage. This is because we use this variable in their condition to get on stage. When another performer gets on stage such as a soloist, the counter for flamenco dancers is reset and they will no longer block when trying to get on stage.
+
+DISCLAIMER: When a performer gets off stage and broadcasts to the other performers, all performers share the same conditional variable, so there is an equal chance of who gets on stage next. This can result in repetition of who trades the stage, but will never run only two groups forever. (This is determined by the cpu scheduler, so we have no control over that.)

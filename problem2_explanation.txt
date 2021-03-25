@@ -1,0 +1,7 @@
+CS 3013 Project 2 Problem 2
+Colby Frechette + Jason Dykstra
+
+
+FedOops Shipping Problem
+
+To manage synchronization, mutual exclusivity, critical regions, and thread management in Problem 2 we used sempahores. We chose to implement 5 different semaphores. The first semaphore manages access to the Pile of Pending Packages(PPP), aka a critical region. The other 4 semaphores are used to manage each team respectively. They manage the conditions that only one member of each team can do operations on a package at a time as well as prevent more than one thread from accessing any package at any given time. we also use structures to implement a worker, package, and to pass arguments from function to function. Worker structs contain package structs to manage and "hold on to" different packages and to do the required operations on the package before sending them off. We used helper functions to manage the actions of each step of the process to promote code efficiency.

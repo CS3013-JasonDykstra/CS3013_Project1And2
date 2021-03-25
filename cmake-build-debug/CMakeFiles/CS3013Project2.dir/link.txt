@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/CS3013Project2.dir/problem1.c.o  -o CS3013Project2  -lpthread 
